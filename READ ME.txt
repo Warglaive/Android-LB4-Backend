@@ -1,1 +1,1 @@
-Run "npm install"
+Run "npm install" before trying to start the project!
