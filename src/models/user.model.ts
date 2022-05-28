@@ -29,6 +29,18 @@ export class User extends Entity {
   })
   role?: string;
 
+  @property({
+    type: 'array',
+    itemType: 'object',
+  })
+  ObjAry?: object[];
+
+  @property({
+    type: 'array',
+    itemType: 'string',
+  })
+  StrAry?: string[];
+
   // Define well-known properties here
 
   // Indexer property to allow additional data
