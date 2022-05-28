@@ -4,7 +4,8 @@
 *.vpp.working-journal
 *.lock
 tmp/*
-
+node_modules
+dist
 # Gradle files
 .gradle/
 build/
