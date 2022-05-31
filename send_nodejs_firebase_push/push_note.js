@@ -1,10 +1,10 @@
 var FCM = require('fcm-push');
 
-var serverkey = '.....O.; //your server key'; 
+var serverkey = '772164322332'; //your server key'; 
 var fcm = new FCM(serverkey);
 
 var message = {
-    to: '......', // your android device id collapse_key : 'collapse -key',
+    to: '3A:38:87:7C:ED:D7:30:CA:AF:4C:6F:E1:6E:7E:B3:60:26:DE:55:37', // your android device id collapse_key : 'collapse -key',
     data: {
         hallo: 'allemaal',
         wereld: 'is rond'
