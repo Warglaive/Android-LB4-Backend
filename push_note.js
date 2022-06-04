@@ -1,10 +1,10 @@
 var FCM = require('fcm-push');
 
-var serverkey = '772164322332'; //your server key'; 
+var serverkey = 'AAAAs8iUhBw:APA91bEMSHh6PCV0i27jd4q0LxRaWauVqqnBOCzZlEFyIUSwOXmt4FcAt2Un3zFsxSNUCChlipcDbcv_ZY2hXFQO0wSUHWe2VzzK552-GwNF2LZH16qHW3-qgzuGjrndsmkD_7d0xeWr'; //your server key'; 
 var fcm = new FCM(serverkey);
 
 var message = {
-    to: '3A:38:87:7C:ED:D7:30:CA:AF:4C:6F:E1:6E:7E:B3:60:26:DE:55:37', // your android device id collapse_key : 'collapse -key',
+    to: 'dApiJwf1S22OXMBqlzgEtt:APA91bFMmMgWBjlK0uv6rD2_duhrpQYDfn6h0MUrRDLeI_WZHixkjNmfnGl-_CpHSnUhLL_DYd-xpXgfhwHYL8UJC8utm5d1MkMQxIouegzPBJ2dMy4D7zo63Sne5F-uui-PfZOFBVjb', // your android device id collapse_key : 'collapse -key',
     data: {
         hallo: 'allemaal',
         wereld: 'is rond'
