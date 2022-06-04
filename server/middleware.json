@@ -4,11 +4,11 @@
   },
   "initial": {
     "./middleware/tracker": {
-      "paths" : ["/api/Employees"],
+      "paths" : ["/lb4latest.herokuapp.com/users"],
       "methods" : ["POST"]
     },
     "./middleware/pusher": {
-      "paths" : ["/api/Employees"],
+      "paths" : ["/lb4latest.herokuapp.com/users"],
       "methods" : ["POST"]
     },
     "compression": {},
