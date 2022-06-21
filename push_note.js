@@ -4,13 +4,13 @@ var serverkey = 'AAAAs8iUhBw:APA91bEMSHh6PCV0i27jd4q0LxRaWauVqqnBOCzZlEFyIUSwOXm
 var fcm = new FCM(serverkey);
 
 var message = {
-    to: 'dApiJwf1S22OXMBqlzgEtt:APA91bFMmMgWBjlK0uv6rD2_duhrpQYDfn6h0MUrRDLeI_WZHixkjNmfnGl-_CpHSnUhLL_DYd-xpXgfhwHYL8UJC8utm5d1MkMQxIouegzPBJ2dMy4D7zo63Sne5F-uui-PfZOFBVjb', // your android device id collapse_key : 'collapse -key',
+    to: 'drpMSR-ER1-P-lWaVULUva:APA91bHEwM8G5ksjsXqrHoyZJ6nS7izdhle5M91wYcHXBX1rULcTe8FUcbpwgWxDopr8nLIGVlA5GQGhjVHRJ--hOadj3uBzWwN7Fr-Kibk0TcUGeVesnvE6Hh9IoDwWuBulVXhsq3mZ', // your android device id collapse_key : 'collapse -key',
     data: {
         hallo: 'allemaal',
         wereld: 'is rond'
     },
     notification: {
-        title: 'Title of the notification', body: 'Body of the notification'
+        title: 'Group 3 - The best group', body: 'Hey everyone'
     }
 };
 
