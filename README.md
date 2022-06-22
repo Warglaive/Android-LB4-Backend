@@ -1,10 +1,12 @@
 # Product Price Alert Loopback 4 Backend Logic
-Works with https://github.com/Warglaive/Product-Price-Alert-Android Front-end
+
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
 ## Install dependencies
+
+# Works with https://github.com/Warglaive/Product-Price-Alert-Android Front-end
 
 By default, dependencies were installed when this application was generated.
 Whenever dependencies in `package.json` are changed, run the following command:
